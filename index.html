@@ -1,39 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fudd Speak</title>
-    <link href="/styles.css" rel="stylesheet" >
-   
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Fudd Speak</title>
+		<link href="/styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header class="head-banner">
+			<h1>Fun Translation</h1>
+			<p>Translate Any sentence the way your Favouret Charater speaks</p>
+		</header>
+		<h2>Select The Character</h2>
+		<div class="options-container">
+			<label class="options"><input type="radio" name="options" value="groot" />groot</label>
+			<label class="options"><input type="radio" name="options" value="gungan" />gungan</label>
+			<label class="options"><input type="radio" name="options" value="hodor" />hodor</label>
+			<label class="options"><input type="radio" name="options" value="huttese" />huttese</label>
+			<label class="options"><input type="radio" name="options" value="irish" />irish</label>
+			<label class="options"><input type="radio" name="options" value="jive" />jive</label>
+			<label class="options"><input type="radio" name="options" value="klingon" />klingon</label>
+			<label class="options"><input type="radio" name="options" value="kraut" />kraut</label>
+			<label class="options"><input type="radio" name="options" value="leetspeak" />leetspeak</label>
+			<label class="options"><input type="radio" name="options" value="mandalorian" />mandalorian</label>
+			<label class="options"><input type="radio" name="options" value="minion" />minion</label>
+			<label class="options"><input type="radio" name="options" value="morse" />morse</label>
+			<label class="options"><input type="radio" name="options" value="navi" />navi</label>
+			<label class="options"><input type="radio" name="options" value="norfolk" />norfolk</label>
+			<label class="options"><input type="radio" name="options" value="numbers" />numbers</label>
+			<label class="options"><input type="radio" name="options" value="oldenglish" />oldenglish</label>
+			<label class="options"><input type="radio" name="options" value="orcish" />orcish</label>
+			<label class="options"><input type="radio" name="options" value="pig-latin" />pig-latin</label>
+			<label class="options"><input type="radio" name="options" value="pirate" />pirate</label>
+			<label class="options"><input type="radio" name="options" value="post-modern" />post-modern</label>
+			<label class="options"><input type="radio" name="options" value="quenya" />quenya</label>
+			<label class="options"><input type="radio" name="options" value="redneck" />redneck</label>
+			<label class="options"><input type="radio" name="options" value="roman-numerals" />roman-numerals</label>
+			<label class="options"><input type="radio" name="options" value="romulan" />romulan</label>
+			<label class="options"><input type="radio" name="options" value="russian-accent" />russian-accent</label>
+			<label class="options"><input type="radio" name="options" value="shakespeare" />shakespeare</label>
+			<label class="options"><input type="radio" name="options" value="sindarin" />sindarin</label>
+			<label class="options"><input type="radio" name="options" value="sith" />sith</label>
+			<label class="options"><input type="radio" name="options" value="southern-accent" />southern-accent</label>
+			<label class="options"><input type="radio" name="options" value="thuum" />thuum</label>
+			<label class="options"><input type="radio" name="options" value="ubbi-dubbi" />ubbi-dubbi</label>
+			<label class="options"><input type="radio" name="options" value="uk2us" />uk2us</label>
+			<label class="options"><input type="radio" name="options" value="us2uk" />us2uk</label>
+			<label class="options"><input type="radio" name="options" value="valspeak" />valspeak</label>
+			<label class="options"><input type="radio" name="options" value="valyrian" />valyrian</label>
+			<label class="options"><input type="radio" name="options" value="vulcan" />vulcan</label>
+			<label class="options"><input type="radio" name="options" value="wow" />wow</label>
+			<label class="options"><input type="radio" name="options" value="yoda" />yoda</label>
+			<label class="options"><input type="radio" name="options" value="wheel-of-time-old-tongue" />wheel-of-time-old-tongue</label>
+			<label class="options"><input type="radio" name="options" value="inflationary-english" />inflationary-english</label>
+		</div>
+		<p class="para">Selected Option: <span id="selectedOption"></span></p>
+		<textarea id="input-fun" placeholder="Enter Your message"></textarea>
+		<button id="button-fun">click me</button>
+		<div id="output-fun">Translation will come here 👇</div>
 
-</head>
-<body>
+		<footer>
+			<p>
+				Try Different Character<br />
+				project by Shubham Goyal
+			</p>
+		</footer>
 
-    <form>
-        <label>
-            <input type="radio" name="options" value="aldmeris"> Option 1
-        </label>
-        <br>
-        <label>
-            <input type="radio" name="options" value="article_rewrite"> Option 2
-        </label>
-        <br>
-        <label>
-            <input type="radio" name="options" value="braille"> Option 3
-        </label>
-    </form>
-    <p>Selected Option: <span id="selectedOption"></span></p>
-    <textarea id="input-fun"></textarea>
-    <button id="button-fun">click me</button>
-    <div id="output-fun"></div>
-
-
-    <script>
-      
-    </script>
-
-
-    <script src="/app.js" type="text/javascript" ></script>
-</body>
+		<script src="/app.js" type="text/javascript"></script>
+	</body>
 </html>
