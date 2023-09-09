@@ -94,6 +94,8 @@ border: solid 1px black;
     text-transform: uppercase;
     margin: 0.7rem 0px;
     text-align: center;
+    color: var(--white);
+    font-weight: bold;
 }
 #output-fun{
     height: 15vh;
@@ -106,8 +108,7 @@ border: solid 1px black;
     margin: auto;
     text-align: left;
     overflow: scroll;
-    color: var(--white);
-    font-weight: bold;
+    
 }
 footer{
     height: 15vh;
