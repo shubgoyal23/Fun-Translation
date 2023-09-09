@@ -106,6 +106,8 @@ border: solid 1px black;
     margin: auto;
     text-align: left;
     overflow: scroll;
+    color: var(--white);
+    font-weight: bold;
 }
 footer{
     height: 15vh;
