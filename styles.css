@@ -51,17 +51,29 @@ h2 {
   text-align: center;
   justify-content: center;
 }
-
 label {
-    cursor: pointer;
+  cursor: pointer;
+  color: var(--tittle);
+  font-size: 2rem;
 }
-input[type="radio"] {
-  /* Add if not using autoprefixer */
-  -webkit-appearance: none;
-  appearance: none;
-  background-color: #fff;
-  margin: 0;
+select{
+max-width: 720px;
+width: 100%;
+padding: 0.5rem;
+text-align: center;
+cursor: pointer;
+line-height: 1.2rem;
+font-size: 1.5rem;
+color: var(--box-txt);
+font-weight: bold;
+justify-content: center;
+display: inline-flex;
+gap: 0.5em;
+box-sizing: border-box;
+border: solid 1px black;
+    border-radius: 4px;
 }
+
 
 .options-container {
   box-sizing: border-box;

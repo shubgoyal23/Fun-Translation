@@ -5,20 +5,19 @@ var url = "https://api.funtranslations.com/translate/";
 var selectedValue = null;
 
 // character selector
-// Get all radio buttons with the name "options"
-const radioButtons = document.querySelectorAll('input[name="options"]');
-
-// Add an event listener to each radio button
-radioButtons.forEach(function (radioButton) {
-  radioButton.addEventListener("change", function () {
-    // Update the selectedValue when a radio button is changed
-    selectedValue = this.value;
-    // Update the content of the "selectedOption" span
-    document.getElementById("selectedOption").textContent = selectedValue;
-    console.log(selectedValue);
-
-  });
+// Get the select element
+const selectElement = document.getElementById('options');
+// Add an event listener to the select element
+selectElement.addEventListener('change', function () {
+  // Update the selectedValue when the selected option changes
+  selectedValue = this.value;
+  // Update the content of the "selectedOption" span
+  document.getElementById('selectedOption').textContent = selectedValue;
+  console.log(selectedValue);
 });
+
+
+
 
 function errorHandler(error) {
   console.log("error occured", error);
