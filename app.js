@@ -21,7 +21,7 @@ selectElement.addEventListener('change', function () {
 function errorHandler(error) {
   console.log("error occured", error);
   alert(
-    "There appears to be an issue with the server. Please consider exploring alternative options or attempting the operation again at a later time."
+    "There appears to be an issue with the server. or You have exceeded Rate limit of 10 requests per hour. Try again at a later time."
   );
 }
 
