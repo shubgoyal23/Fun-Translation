@@ -95,7 +95,7 @@ border: solid 1px black;
     margin: 0.7rem 0px;
     text-align: center;
     color: var(--white);
-    font-weight: bold;
+    letter-spacing: 0.1rem;
 }
 #output-fun{
     height: 15vh;
