@@ -13,7 +13,6 @@ selectElement.addEventListener('change', function () {
   selectedValue = this.value;
   // Update the content of the "selectedOption" span
   document.getElementById('selectedOption').textContent = selectedValue;
-  console.log(selectedValue);
 });
 
 
