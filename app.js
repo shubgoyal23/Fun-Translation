@@ -9,10 +9,7 @@ var selectedValue = null;
 const selectElement = document.getElementById('options');
 // Add an event listener to the select element
 selectElement.addEventListener('change', function () {
-  // Update the selectedValue when the selected option changes
   selectedValue = this.value;
-  // Update the content of the "selectedOption" span
-  document.getElementById('selectedOption').textContent = selectedValue;
 });
 
 
